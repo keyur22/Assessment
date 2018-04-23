@@ -1,0 +1,15 @@
+<header>
+  <h1>Fibonacci Generator</h1>
+</header>
+<div class="container form-inline">
+  <div class="form-group">
+    <input type="number" class="form-control" id="usr" placeholder="Fibonacci number limit" ng-model="number">
+  </div>
+  <button type="button" class="btn btn-primary btn-custom" ng-click="f.generate(number)">GENERATE</button>
+  <a href="#!/">
+    <button type="button" class="btn btn-secondary btn-custom">BACK</button>
+  </a>
+</div>
+<div class="message">
+  {{f.message}}
+</div>

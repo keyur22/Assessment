@@ -1,0 +1,15 @@
+<header>
+  <h1>Prime Number Check</h1>
+</header>
+<div class="container form-inline">
+  <div class="form-group">
+    <input type="number" class="form-control" id="usr" placeholder="Enter a number" ng-model="number">
+  </div>
+  <button type="button" class="btn btn-primary btn-custom" ng-click="p.check(number)">CHECK</button>
+  <a href="#!/">
+    <button type="button" class="btn btn-secondary btn-custom">BACK</button>
+  </a>
+</div>
+<div class="message">
+  {{p.message}}
+</div>

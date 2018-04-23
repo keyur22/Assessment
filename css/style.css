@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #993399;
+}
+
+.container-fluid{
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+}
+
+header{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+  letter-spacing: 8px;
+  color: white;
+  padding-top: 2%;
+}
+
+.container{
+  height: 50vh;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.btn-custom{
+  margin: 15px;
+  padding: 6px 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid transparent;
+  border-radius: 50px;
+}
+
+.message{
+  background: #f4f4f4;
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 10%;
+}
